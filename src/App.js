@@ -5,6 +5,7 @@ import SignUp from './pages/SignUp'
 import Login from './pages/Login';
 import AdminDash from './pages/AdminDash'
 import FoodMenu from './pages/FoodMenu';
+import Orders from './pages/Orders'
 function App() {
   return (
    <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
     <Route path='/login' element={<Login/>}/>
     <Route path='/admin' element={<AdminDash/>}/>
     <Route path='/menu' element={<FoodMenu/>}/>
+    <Route path='/orders' element={<Orders/>}/>
    </Routes>
    </BrowserRouter>
   );
